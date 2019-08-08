@@ -43,7 +43,8 @@
                     android:layout_width="56dp"
                     android:layout_height="match_parent"
                     android:src="@drawable/ic_grid_view"
-                    android:background="?android:selectableItemBackground"/>
+                    android:background="?android:selectableItemBackground"
+                    android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
             </LinearLayout>
 
         </android.support.v7.widget.Toolbar>
