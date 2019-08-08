@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--margin-->
+    <dimen name="border_lower_margin">6dp</dimen>
+    <dimen name="border_low_margin">8dp</dimen>
+    <dimen name="border_middle_margin">10dp</dimen>
+    <dimen name="border_higher_low_margin">12dp</dimen>
+    <dimen name="border_smaller_medium_margin">13dp</dimen>
+    <dimen name="border_medium_margin">16dp</dimen>
+    <dimen name="border_high_margin">24dp</dimen>
+    <dimen name="border_higher_margin">32dp</dimen>
+    <dimen name="border_extra_high_margin">42dp</dimen>
+    <dimen name="border_half_low_margin">4dp</dimen>
+    <dimen name="border_min_low_margin">2dp</dimen>
+    <dimen name="line_space">5sp</dimen>
+
+
+    <dimen name="font_size_xxx_large">21sp</dimen>
+    <dimen name="font_size_xx_large">19sp</dimen>
+    <dimen name="font_size_x_large">18sp</dimen>
+    <dimen name="font_size_large">16sp</dimen>
+    <dimen name="font_size_semi_large">15sp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+    <dimen name="font_size_middle">13sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_smaller">10sp</dimen>
+    <!---->
+    <dimen name="normal_radius">7dp</dimen>
+    <dimen name="card_default_radius">10dp</dimen>
+    <!---->
+    <dimen name="translation_z_Low">2dp</dimen>
+    <dimen name="border_small">5dp</dimen>
+</resources>

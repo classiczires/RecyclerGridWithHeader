@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/grid_item_card"
+    android:layout_width="match_parent"
+    android:layout_height="263dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/border_half_low_margin"
+    android:clickable="true"
+    android:elevation="0dp"
+    android:focusable="true"
+    android:foreground="?android:selectableItemBackground"
+    android:translationZ="3dp"
+    app:cardCornerRadius="@dimen/normal_radius"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/item_grid_title_continer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/grid_item_image_view"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/border_medium_margin"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:id="@+id/grid_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/border_higher_low_margin"
+                android:layout_marginRight="@dimen/border_higher_low_margin"
+                android:ellipsize="end"
+                android:gravity="center_horizontal"
+                android:lineSpacingExtra="7sp"
+                android:maxLines="2"
+                android:includeFontPadding="false"
+                android:textColor="#333333"
+                android:textSize="@dimen/font_size_medium" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/item_grid_title_continer">
+
+            <LinearLayout
+                android:id="@+id/grid_item_price_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="11dp">
+
+                <LinearLayout
+                    android:id="@+id/grid_item_old_price_container"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginRight="@dimen/border_small"
+                    android:layout_marginLeft="@dimen/border_small"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/grid_item_old_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:includeFontPadding="false"
+                        android:textAlignment="center"
+                        android:textColor="#999999"
+                        android:textSize="@dimen/font_size_medium" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/grid_item_price_continer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginLeft="@dimen/border_small"
+                    android:layout_marginRight="@dimen/border_small"
+                    android:layout_marginTop="4dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/grid_item_new_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="@dimen/border_small"
+                        android:layout_marginEnd="@dimen/border_small"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:includeFontPadding="false"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/font_size_x_large" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:text="@string/dollar"
+                        android:textAlignment="center"
+                        android:includeFontPadding="false"
+                        android:textColor="#333333"
+                        android:textSize="@dimen/font_size_middle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

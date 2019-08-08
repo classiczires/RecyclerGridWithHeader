@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RecyclerGridWithHeader</string>
+    <string name="app_title">Recycler Grid/List With Header</string>
+    <string name="list_of_products">List of Products</string>
+    <string name="dollar">$</string>
+    <string name="description">Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, search engine, cloud computing, software, and hardware. It is considered one of the Big Four technology companies, alongside Amazon, Apple and Facebook. Wikipedia</string>
+</resources>
